@@ -1,6 +1,6 @@
 {
   "name": "calculadora",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "calculadora basada en ajax con nodejs",
   "main": "app.js",
   "dependencies":{
