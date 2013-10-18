@@ -2,7 +2,7 @@ var http = require("http");
 var express = require("express");
 var operaciones = require('./process.js');
 
-var PORT = 4646;
+var PORT = process.env.PORT||4646;
 var app = express();
 var server = http.createServer(app).listen(PORT,function(){
 	console.log("Server runing in PORT: "+PORT);
