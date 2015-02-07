@@ -1,3 +1,2 @@
+node_modules
 
-#No se dara seguimiento a los modulos, para optimizar la carga en git y el deploying
-node_modules/
